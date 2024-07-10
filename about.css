@@ -1,0 +1,74 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #7c03eee3;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end; /* Aligns the navigation to the right */
+}
+nav ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover  {
+    
+    color: rgb(253, 253, 1);
+    font-size: 1.1rem;
+}
+.about-section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.profile-picture img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.about-content p {
+    line-height: 1.6;
+    margin: 1em 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #7c03eee3;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
